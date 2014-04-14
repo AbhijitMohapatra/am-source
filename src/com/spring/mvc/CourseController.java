@@ -19,8 +19,8 @@ public class CourseController extends AbstractController {
 	@Override
 	protected ModelAndView handleRequestInternal(HttpServletRequest req,
 			HttpServletResponse res) throws Exception {
-		ArrayList<String> al=cs.getCourse();
-		return new ModelAndView("show", "AL", al);
+		ArrayList<String> al1=cs.getCourse();
+		return new ModelAndView("show", "AL", al1);
 	}
 
 }
